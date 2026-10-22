@@ -1,0 +1,20 @@
+{
+  "model_name": "Battsafe embedded z-score baseline",
+  "features": [
+    "temperature_c",
+    "battery_voltage_v",
+    "gas_adc"
+  ],
+  "means": {
+    "temperature_c": 28.83956,
+    "battery_voltage_v": 13.19136,
+    "gas_adc": 449.358
+  },
+  "stds": {
+    "temperature_c": 3.102247476653015,
+    "battery_voltage_v": 0.7059825425603667,
+    "gas_adc": 110.54174702798939
+  },
+  "z_limit": 3.0,
+  "warning_note": "Synthetic sample-data config only. Retrain/calibrate with real sensor data."
+}
